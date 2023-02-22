@@ -13,6 +13,10 @@
 		36A0010E29A3D1750036772E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A0010C29A3D1750036772E /* Main.storyboard */; };
 		36A0011029A3D1780036772E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A0010F29A3D1780036772E /* Assets.xcassets */; };
 		36A0011329A3D1780036772E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A0011129A3D1780036772E /* LaunchScreen.storyboard */; };
+		36A0011B29A400730036772E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A0011A29A400730036772E /* SecondViewController.swift */; };
+		36A0011D29A400980036772E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A0011C29A400980036772E /* ThirdViewController.swift */; };
+		36A0011F29A400B80036772E /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A0011E29A400B80036772E /* FourthViewController.swift */; };
+		36A0012129A400CE0036772E /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A0012029A400CE0036772E /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		36A0010F29A3D1780036772E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A0011229A3D1780036772E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36A0011429A3D1780036772E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A0011A29A400730036772E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		36A0011C29A400980036772E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		36A0011E29A400B80036772E /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		36A0012029A400CE0036772E /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				36A0010F29A3D1780036772E /* Assets.xcassets */,
 				36A0011129A3D1780036772E /* LaunchScreen.storyboard */,
 				36A0011429A3D1780036772E /* Info.plist */,
+				36A0011A29A400730036772E /* SecondViewController.swift */,
+				36A0011C29A400980036772E /* ThirdViewController.swift */,
+				36A0011E29A400B80036772E /* FourthViewController.swift */,
+				36A0012029A400CE0036772E /* FifthViewController.swift */,
 			);
 			path = "homeW-2";
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A0011F29A400B80036772E /* FourthViewController.swift in Sources */,
+				36A0011B29A400730036772E /* SecondViewController.swift in Sources */,
 				36A0010B29A3D1750036772E /* ViewController.swift in Sources */,
+				36A0011D29A400980036772E /* ThirdViewController.swift in Sources */,
 				36A0010729A3D1750036772E /* AppDelegate.swift in Sources */,
 				36A0010929A3D1750036772E /* SceneDelegate.swift in Sources */,
+				36A0012129A400CE0036772E /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
